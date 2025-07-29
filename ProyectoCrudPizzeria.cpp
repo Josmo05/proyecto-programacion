@@ -178,7 +178,7 @@ void facturar(vector<Pedido>& pedidos) {
     getline(cin, f.direccion);
 
     while (true) {
-        cout << "\n¿Desea servicio a domicilio o para recoger?" << endl;
+        cout << "\nÂ¿Desea servicio a domicilio o para recoger?" << endl;
         cout << "1.- Domicilio (1.50$)\n2.- Para recoger (Sin recargo)" << endl;
         cout << "Ingresa una opcion: "; cin >> f.envio;
         if (f.envio == 1 || f.envio == 2) break;
